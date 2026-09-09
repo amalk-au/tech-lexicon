@@ -4,6 +4,7 @@
 
 - [Ubuntu Keyboard Shortcuts](./ubuntu-keyboard-shortcuts.md)
 - [Terminal Commands - Full](./terminal-commands-full.md)
+- [Ubuntu Administration Cheat Sheet](./ubuntu-admin-commands.md)
 - [File system types](./file-system-types.md)
 - [How Linux Kernel Works](./how-linux-work.md)
 - [What is a cron job ?](./ubuntu-cron-jobs.md)

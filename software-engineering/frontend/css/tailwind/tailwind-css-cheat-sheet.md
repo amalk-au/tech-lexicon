@@ -1,5 +1,7 @@
 # Tailwind CSS Cheat Sheet
 
+[Back to the CSS main index](../README.md)
+
 A practical, modern reference for Tailwind CSS — installation, configuration, and the utility classes you'll reach for 90% of the time.
 
 ---

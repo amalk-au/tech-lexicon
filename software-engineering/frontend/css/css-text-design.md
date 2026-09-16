@@ -1,5 +1,7 @@
 # CSS Text Design
 
+[Back to the CSS main index](./README.md)
+
 A reference for expressive and readable text styling in modern CSS — from image-filled headings to line-break control that ships in browsers today.
 
 ---

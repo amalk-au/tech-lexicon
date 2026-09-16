@@ -1,5 +1,7 @@
 # Git Best Practices
 
+[Back to Git topic index](./README.md)
+
 ## Work in Branches (Even on your own)
 
 Don't always code directly on the main branch. Use a "Feature Branch" workflow.

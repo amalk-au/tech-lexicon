@@ -1,5 +1,7 @@
 # Git Configuration
 
+[Back to Git topic index](./README.md)
+
 ## Setting up Git & GitHub on a new Ubuntu/Linux installation
 
 ### 1. Install Git

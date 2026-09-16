@@ -1,8 +1,6 @@
 # Git
 
-## Links
-
-- [Git Handbook](https://git-scm.com/book/en/v2)
+[Back to Git topic index](./README.md)
 
 ## Basics
 
@@ -39,3 +37,7 @@
 - `git merge [branch-name]` : Finally, you can merge your feature branch into dev
 - `git remote -v` : Check the fetch and push locations
 - `git config --global user.email "email@example.com"` : Set an email address in Git. You can use your GitHub-provided noreply email address or any email address.
+
+## Links
+
+- [Git Handbook](https://git-scm.com/book/en/v2)

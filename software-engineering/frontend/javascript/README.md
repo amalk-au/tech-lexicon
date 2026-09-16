@@ -1,6 +1,5 @@
 # JavaScript Reference
 
-- [JavaScript](./README.md)
 - [Javascript Cheat Sheet](./javascript-cheat-sheet.md)
 - [JavaScript Q&A](./javascript-q&a.md)
 - [JavaScript Service Workers](./js-service-workers.md)

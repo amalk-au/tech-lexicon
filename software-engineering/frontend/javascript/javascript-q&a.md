@@ -1,5 +1,7 @@
 # Full-Stack Engineer Interview Q&A
 
+[Back to JavaScript topic Index](./README.md)
+
 A JavaScript fundamentals reference plus leveled interview questions (Junior → Mid → Senior) covering JavaScript, Node.js, React, databases, APIs, and system design.
 
 ---
@@ -18,9 +20,9 @@ A JavaScript fundamentals reference plus leveled interview questions (Junior →
 
 **Q: Explain the difference between `var`, `let`, and `const`.** A:
 
--   `var` is function-scoped and can be redeclared and reassigned.
--   `let` is block-scoped, can be reassigned but not redeclared within the same scope.
--   `const` is block-scoped and cannot be reassigned or redeclared.
+- `var` is function-scoped and can be redeclared and reassigned.
+- `let` is block-scoped, can be reassigned but not redeclared within the same scope.
+- `const` is block-scoped and cannot be reassigned or redeclared.
 
 **Q: What are arrays and how do you access their elements?** A: Arrays are ordered collections of values. Elements are accessed using zero-based indexing, e.g., `arr[0]`.
 
@@ -104,22 +106,22 @@ A JavaScript fundamentals reference plus leveled interview questions (Junior →
 
 ### Table: Key JavaScript Topics
 
-| Topic | Example Question | Example Answer (Short) |
-| :-- | :-- | :-- |
-| Data Types | What are the different data types in JavaScript? | string, number, bigint, boolean, undefined, symbol, null |
-| Variable Declarations | Difference between `var`, `let`, and `const`? | Scope, hoisting, reassignment, redeclaration rules |
-| Functions & Scope | What is a closure? | Function with access to its lexical scope |
-| Objects & Prototypes | What is prototypal inheritance? | Objects inherit from other objects via prototype chain |
-| Asynchronous JS | How do Promises differ from callbacks? | Promises allow chaining, better error handling, readability |
-| Array Methods | How do you remove duplicates from an array? | Use `Set`: `[...new Set(array)]` |
-| ES6 Features | What are arrow functions and how do they work? | Concise syntax, no own `this`, best for non-methods |
-| Error Handling | How do you handle errors in JavaScript? | Use `try...catch`, `.catch()` for Promises |
+| Topic                 | Example Question                                 | Example Answer (Short)                                      |
+| :-------------------- | :----------------------------------------------- | :---------------------------------------------------------- |
+| Data Types            | What are the different data types in JavaScript? | string, number, bigint, boolean, undefined, symbol, null    |
+| Variable Declarations | Difference between `var`, `let`, and `const`?    | Scope, hoisting, reassignment, redeclaration rules          |
+| Functions & Scope     | What is a closure?                               | Function with access to its lexical scope                   |
+| Objects & Prototypes  | What is prototypal inheritance?                  | Objects inherit from other objects via prototype chain      |
+| Asynchronous JS       | How do Promises differ from callbacks?           | Promises allow chaining, better error handling, readability |
+| Array Methods         | How do you remove duplicates from an array?      | Use `Set`: `[...new Set(array)]`                            |
+| ES6 Features          | What are arrow functions and how do they work?   | Concise syntax, no own `this`, best for non-methods         |
+| Error Handling        | How do you handle errors in JavaScript?          | Use `try...catch`, `.catch()` for Promises                  |
 
 ---
 
 ## Part 2: Junior Full-Stack Engineer Interview Q&A
 
-*Focus: fundamentals, basic CRUD, using frameworks correctly, following patterns.*
+_Focus: fundamentals, basic CRUD, using frameworks correctly, following patterns._
 
 **Q: What is the difference between `npm` and `npx`?** A: `npm` installs and manages packages. `npx` executes a package's binary directly, either from `node_modules` or by temporarily downloading it, without installing it globally.
 
@@ -136,11 +138,11 @@ A JavaScript fundamentals reference plus leveled interview questions (Junior →
 **Q: How do you create a simple GET route in Express?** A:
 
 ```javascript
-const express = require('express');
+const express = require("express");
 const app = express();
 
-app.get('/users', (req, res) => {
-  res.json([{ id: 1, name: 'Alice' }]);
+app.get("/users", (req, res) => {
+  res.json([{ id: 1, name: "Alice" }]);
 });
 
 app.listen(3000);
@@ -172,7 +174,7 @@ app.listen(3000);
 
 ## Part 3: Mid-Level Full-Stack Engineer Interview Q&A
 
-*Focus: architecture decisions, performance, testing, state management, security basics.*
+_Focus: architecture decisions, performance, testing, state management, security basics._
 
 **Q: How does the Node.js event loop handle I/O differently from a traditional multi-threaded server?** A: Node.js runs JavaScript on a single thread but delegates I/O operations (file system, network, timers) to the libuv thread pool or OS-level async APIs. Non-blocking callbacks are queued and processed by the event loop's phases (timers, pending callbacks, poll, check, close), allowing high concurrency without spawning a thread per request.
 
@@ -188,7 +190,7 @@ app.listen(3000);
 
 **Q: How would you design pagination for a large dataset via a REST API?** A: Prefer cursor-based pagination (opaque cursor pointing to the last seen record) over offset-based for large or frequently changing datasets, since offset pagination degrades in performance and can skip/duplicate rows under concurrent writes. Return a `nextCursor` and page size, and index the sort/filter columns.
 
-**Q: What's the difference between authentication and authorization?** A: Authentication verifies *who* a user is (login). Authorization determines *what* an authenticated user is allowed to do (permissions/roles).
+**Q: What's the difference between authentication and authorization?** A: Authentication verifies _who_ a user is (login). Authorization determines _what_ an authenticated user is allowed to do (permissions/roles).
 
 **Q: How would you implement JWT-based authentication securely?** A: Sign short-lived access tokens with a strong secret/algorithm, store them client-side in memory or an httpOnly, secure, SameSite cookie (avoid `localStorage` for sensitive tokens due to XSS risk), use refresh tokens for renewal, validate signature/expiry on every request server-side, and support revocation (e.g., a token blacklist or short expiry + refresh rotation).
 
@@ -227,7 +229,7 @@ This delays updating the value used to trigger the API call until the user stops
 
 ## Part 4: Senior Full-Stack Engineer Interview Q&A
 
-*Focus: system design, scalability, tradeoffs, leadership, reliability, security depth.*
+_Focus: system design, scalability, tradeoffs, leadership, reliability, security depth._
 
 **Q: How would you design a URL shortener (e.g., bit.ly) at scale?** A: Key points: generate short codes via base62 encoding of an auto-incrementing ID or a hash with collision handling; use a fast key-value store (Redis) for read-heavy lookups with a relational/NoSQL DB as the source of truth; cache popular redirects; use a CDN/edge layer for redirect latency; shard/partition by code prefix if write volume is high; handle analytics asynchronously via an event queue rather than blocking the redirect path.
 
@@ -251,7 +253,7 @@ This delays updating the value used to trigger the API call until the user stops
 
 **Q: How do you handle a production incident (e.g., API latency spike) as the on-call engineer?** A: Triage first: check recent deploys/config changes, dashboards for the affected service and its dependencies, and error rates. Mitigate quickly (rollback, feature flag off, scale up) before root-causing fully. Communicate status to stakeholders. After resolution, do a blameless postmortem focused on systemic fixes (better alerting, tests, guardrails) rather than individual blame.
 
-**Q: How would you review a junior engineer's PR that works but has design issues?** A: Approve incrementally where reasonable, distinguish "must-fix" (bugs, security, correctness) from "nice-to-have" (style, minor structure) in comments, explain the *why* behind suggestions with examples, and use it as a mentoring moment rather than blocking on personal preference — the goal is a working, maintainable system and a growing engineer, not a perfect diff.
+**Q: How would you review a junior engineer's PR that works but has design issues?** A: Approve incrementally where reasonable, distinguish "must-fix" (bugs, security, correctness) from "nice-to-have" (style, minor structure) in comments, explain the _why_ behind suggestions with examples, and use it as a mentoring moment rather than blocking on personal preference — the goal is a working, maintainable system and a growing engineer, not a perfect diff.
 
 **Q: How do you decide between server-side rendering (SSR), static generation (SSG), and client-side rendering (CSR) for a React app?** A: SSR (e.g., Next.js) suits content that needs fast first paint and SEO with frequently changing data. SSG suits mostly-static content (marketing pages, docs) for best performance/cacheability. CSR suits highly interactive, authenticated, SEO-irrelevant apps (dashboards). Many real apps mix all three per-route based on these tradeoffs.
 
@@ -263,12 +265,12 @@ This delays updating the value used to trigger the API call until the user stops
 
 ## Quick Reference: Question Difficulty by Topic
 
-| Topic | Junior | Mid-Level | Senior |
-| :-- | :-- | :-- | :-- |
-| JavaScript | Syntax, types, closures | Async patterns, memory, performance | Engine internals, event loop tuning |
-| Node.js | Basic Express routes | Event loop phases, worker threads | Scaling, clustering, observability |
-| React | Props/state, hooks basics | Memoization, rendering optimization | Rendering strategy (SSR/SSG/CSR) tradeoffs |
-| Databases | SQL vs NoSQL | Indexing, N+1, transactions | Sharding, CAP theorem, consistency models |
-| APIs | REST verbs, status codes | Pagination, auth, versioning | Rate limiting, backward compatibility, contracts |
-| System Design | N/A | Basic caching, simple scaling | Distributed systems, CAP, incident response |
-| Security | CORS basics | JWT, SQLi prevention | XSS/CSRF depth, access control, threat modeling |
+| Topic         | Junior                    | Mid-Level                           | Senior                                           |
+| :------------ | :------------------------ | :---------------------------------- | :----------------------------------------------- |
+| JavaScript    | Syntax, types, closures   | Async patterns, memory, performance | Engine internals, event loop tuning              |
+| Node.js       | Basic Express routes      | Event loop phases, worker threads   | Scaling, clustering, observability               |
+| React         | Props/state, hooks basics | Memoization, rendering optimization | Rendering strategy (SSR/SSG/CSR) tradeoffs       |
+| Databases     | SQL vs NoSQL              | Indexing, N+1, transactions         | Sharding, CAP theorem, consistency models        |
+| APIs          | REST verbs, status codes  | Pagination, auth, versioning        | Rate limiting, backward compatibility, contracts |
+| System Design | N/A                       | Basic caching, simple scaling       | Distributed systems, CAP, incident response      |
+| Security      | CORS basics               | JWT, SQLi prevention                | XSS/CSRF depth, access control, threat modeling  |

@@ -1,4 +1,7 @@
 # Service Worker
+
+[Back to JavaScript topic Index](./README.md)
+
 A **Service Worker** is a special JavaScript program that runs **in the background of a website**, separately from the web page itself.
 
 The easiest way to think about it:
@@ -74,11 +77,11 @@ self.addEventListener("fetch", event => {
 
 It can then choose whether to:
 
--   use the cache
--   fetch from the internet
--   use cache first and update in the background
--   return a fallback
--   etc.
+- use the cache
+- fetch from the internet
+- use cache first and update in the background
+- return a fallback
+- etc.
 
 ### 3\. Push notifications
 

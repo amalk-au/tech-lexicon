@@ -1,5 +1,7 @@
 # Domain Driven Design
 
+[Back to the topic index](./README.md)
+
 **Domain-Driven Design (DDD)** is a software development approach that centers the design and implementation of software around the **core business domain** and its logic, rather than focusing primarily on technical concerns or infrastructure[^1] [^3] [^5]. The philosophy was introduced by Eric Evans in his influential 2003 book, _Domain-Driven Design: Tackling Complexity in the Heart of Software_[^1] [^2] [^4].
 
 ### Key Principles of Domain-Driven Design

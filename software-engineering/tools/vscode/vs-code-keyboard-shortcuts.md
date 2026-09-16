@@ -1,5 +1,7 @@
 ## VS Code: Keyboard shortcuts
 
+[Back to the topic index](./README.md)
+
 - `Ctrl+Shift+V` : Markdown, to switch between views, press in the editor. You can view the preview side-by-side `Ctrl+K V` with the file you are editing and see changes reflected in real-time as you edit.
 - `code .` : To Open VSCode from the same folder
 - `Ctrl+Shift+P, F1` : Show Command Palette

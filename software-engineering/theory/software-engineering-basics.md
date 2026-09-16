@@ -1,5 +1,7 @@
 # Software Engineering Basics
 
+[Back to the topic index](./README.md)
+
 **Software engineering theories** are foundational concepts and principles that guide the design, development, and maintenance of high-quality software systems. These theories help ensure software is reliable, maintainable, scalable, and adaptable to changing requirements.
 
 ## Core Principles of Software Engineering
@@ -21,6 +23,14 @@ For object-oriented design, the **SOLID** principles are a cornerstone:
 - **Liskov Substitution Principle (LSP)**: Subtypes must be substitutable for their base types without altering the correctness of the program [^5].
 - **Interface Segregation Principle (ISP)**: Prefer many specific interfaces over a single general-purpose interface[^5].
 - **Dependency Inversion Principle (DIP)**: Depend on abstractions, not concrete implementations[^5].
+
+## Arrange-Act-Assert
+
+A pattern for arranging and formatting code in UnitTest methods: Each method should group these functional sections, separated by blank lines:Arrange all necessary preconditions and inputs. Act on the object or method under test.Assert that the expected results have occurred.
+
+## Given-When-Then (GWT)
+
+Is a semi-structured way to write down test cases. They can either be tested manually or automated as browser git sttests with tools like Selenium and Cucumber. It derives its name from the three clauses used, which start with the words given, when and then.Given describes the preconditions and initial state before the start of a test and allows for any pre-test setup that may occur. When describes actions taken by a user during a test. Then describes the outcome resulting from actions taken in the when clause. The Given-When-Then was proposed by Dan North in 2006, as part of behavior-driven development.
 
 ### Additional Theoretical Foundations
 

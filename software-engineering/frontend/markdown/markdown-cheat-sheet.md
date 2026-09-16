@@ -1,27 +1,36 @@
 # Markdown Cheat Sheet
 
+[Back to the Markdown main index](./README.md)
+
 **Markdown** is a lightweight markup language for formatting plain text. It's widely used for documentation, README files, blogs, wikis, and comments in developer tools like GitHub, GitLab, and Slack. It's valued for being easy to write *and* easy to read, even in its raw, unrendered form.
 
 ---
 
 ## Table of Contents
-1. [Headings](#headings)
-2. [Text Formatting](#text-formatting)
-3. [Blockquotes](#blockquotes)
-4. [Lists](#lists)
-5. [Code](#code)
-6. [Links](#links)
-7. [Images](#images)
-8. [Tables](#tables)
-9. [Horizontal Rule](#horizontal-rule)
-10. [Task Lists](#task-lists)
-11. [Footnotes](#footnotes)
-12. [Escaping Characters](#escaping-characters)
-13. [Line Breaks](#line-breaks)
-14. [HTML in Markdown](#html-in-markdown)
-15. [Emoji](#emoji-github-flavored)
-16. [Full Example](#full-example)
-17. [Notes on Markdown Flavors](#notes-on-markdown-flavors)
+- [Markdown Cheat Sheet](#markdown-cheat-sheet)
+  - [Table of Contents](#table-of-contents)
+  - [Headings](#headings)
+  - [Text Formatting](#text-formatting)
+  - [Blockquotes](#blockquotes)
+  - [Lists](#lists)
+    - [Unordered List](#unordered-list)
+    - [Ordered List](#ordered-list)
+  - [Code](#code)
+    - [Inline Code](#inline-code)
+    - [Code Block (fenced, with syntax highlighting)](#code-block-fenced-with-syntax-highlighting)
+    - [Code Block (indented — legacy style)](#code-block-indented--legacy-style)
+  - [Links](#links)
+  - [Images](#images)
+  - [Tables](#tables)
+  - [Horizontal Rule](#horizontal-rule)
+  - [Task Lists](#task-lists)
+  - [Footnotes](#footnotes)
+  - [Escaping Characters](#escaping-characters)
+  - [Line Breaks](#line-breaks)
+  - [HTML in Markdown](#html-in-markdown)
+  - [Emoji (GitHub-flavored)](#emoji-github-flavored)
+  - [Full Example](#full-example)
+  - [Notes on Markdown Flavors](#notes-on-markdown-flavors)
 
 ---
 

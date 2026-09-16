@@ -1,5 +1,7 @@
 ## JavaScript Technical Interview Prep
 
+[Back to the topic index](./README.md)
+
 ## Object-Oriented Programming (OOP) in JavaScript
 
 - **Classes/Objects**: ES6 `class` syntax creates blueprints; objects are their instances.

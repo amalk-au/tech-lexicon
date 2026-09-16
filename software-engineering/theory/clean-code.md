@@ -1,5 +1,7 @@
 # Clean Code
 
+[Back to the topic index](./README.md)
+
 - [Link 1 : Odin Project, Foundations Course: Clean Code](https://www.theodinproject.com/lessons/foundations-clean-code)
 - [Link 2 : 10 Principles for Keeping Your Programming Code Clean](https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean)
 - Indentation : 2 spaces for indentation

@@ -1,5 +1,7 @@
 # VS Code Configuration
 
+[Back to the topic index](./README.md)
+
 ## Install VS Code (Ubuntu/Debian)
 
 ```bash

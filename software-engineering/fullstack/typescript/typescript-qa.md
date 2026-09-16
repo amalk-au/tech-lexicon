@@ -1,5 +1,7 @@
 # Typescript Common Q&A
 
+[Back to the topic index](./README.md)
+
 ### 1. **What is TypeScript and how is it different from JavaScript?**
 
 - **Sample Answer:**

@@ -1,5 +1,7 @@
 # Data structures basics
 
+[Back to the topic index](./README.md)
+
 A **data structure** is a specialized format for organizing, processing, retrieving, and storing data. Choosing the right data structure is crucial for writing efficient algorithms and scalable software.
 
 ## Basic Data Structures

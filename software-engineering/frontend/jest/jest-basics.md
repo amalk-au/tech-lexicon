@@ -1,5 +1,7 @@
 # JEST testing basics
 
+[Back to the Jest main index](./README.md)
+
 **Jest** is a popular JavaScript testing framework developed by Facebook, widely used for unit testing JavaScript and React applications due to its simplicity and built-in features[^3][^4][^8].
 
 ## Getting Started with Jest
@@ -52,8 +54,8 @@ module.exports = sum;
 - Create a test file, e.g., `sum.test.js`:
 
 ```js
-const sum = require('./sum');
-test('adds 1 + 2 to equal 3', () => {
+const sum = require("./sum");
+test("adds 1 + 2 to equal 3", () => {
   expect(sum(1, 2)).toBe(3);
 });
 ```
@@ -66,15 +68,18 @@ npm test
 
 Jest will automatically find files with `.test.js` or `.spec.js` extensions[^3][^1].
 
-
 ## Core Jest Syntax
 
 - **test or it**: Defines a test case.
 
 ```js
-test('description', () => { /* assertions */ });
+test("description", () => {
+  /* assertions */
+});
 // or
-it('description', () => { /* assertions */ });
+it("description", () => {
+  /* assertions */
+});
 ```
 
 - **expect**: Used to create assertions about values.
@@ -85,17 +90,17 @@ expect(value).toBe(expectedValue);
 
 - **Matchers**: Methods like `.toBe()`, `.toEqual()`, `.toBeTruthy()`, etc., are used to compare values[^1][^3].
 
-
 ## Organizing Tests
 
 - **describe**: Groups related tests together for better organization.
 
 ```js
-describe('sum function', () => {
-  test('adds numbers', () => { /* ... */ });
+describe("sum function", () => {
+  test("adds numbers", () => {
+    /* ... */
+  });
 });
 ```
-
 
 ## Testing Asynchronous Code
 
@@ -128,4 +133,3 @@ Jest is known for its fast performance, zero-config setup for many projects, and
 [^8]: https://jestjs.io
 
 [^9]: https://www.browserstack.com/guide/jest-framework-tutorial
-

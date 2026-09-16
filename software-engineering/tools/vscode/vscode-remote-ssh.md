@@ -1,3 +1,7 @@
+# VS Code remote development using SSH & remote Ubuntu Server
+
+[Back to the topic index](./README.md)
+
 Connecting VS Code to an Ubuntu server is incredibly seamless using the official **Remote - SSH** extension. Once configured, you can edit files, run terminals, and debug code directly on your server just like you would locally.
 
 Here is the step-by-step guide to setting it up:

@@ -1,5 +1,7 @@
 ## Five Common Mistakes Software Engineers Make Solving the IRC Client Coding Challenge, By John Crickett
 
+[Back to the topic index](./README.md)
+
 https://codingchallenges.fyi/challenges/challenge-irc/ 
 
 I’ve pulled together this list of common mistakes from the hundreds of submissions I’ve been sent privately and the many shared in the Coding Challenges Shared Solutions GitHub Repo.

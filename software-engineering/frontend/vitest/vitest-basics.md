@@ -1,5 +1,7 @@
 # Vitest basics
 
+[Back to the Vitest main index](./README.md)
+
 **Vitest** is a modern JavaScript testing framework built on top of Vite, designed for speed, simplicity, and seamless integration with modern front-end projects (like React, Vue, and Svelte). It is especially well-suited for projects already using Vite as their build tool.
 
 ## Key Vitest Basics

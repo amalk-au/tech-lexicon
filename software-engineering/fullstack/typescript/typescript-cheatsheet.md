@@ -1,5 +1,7 @@
 # Typescript cheat sheet
 
+[Back to the topic index](./README.md)
+
 This covers everything from basic variable declarations to the advanced patterns you'll use in React and Next.js.
 
 ---

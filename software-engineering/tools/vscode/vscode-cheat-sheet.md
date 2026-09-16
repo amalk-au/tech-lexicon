@@ -1,5 +1,7 @@
 # VS Code Cheat Sheet
 
+[Back to the topic index](./README.md)
+
 A practical reference for Visual Studio Code — interface basics, setup/config (Prettier & ESLint), Remote-SSH, and Linux keyboard shortcuts.
 
 ---

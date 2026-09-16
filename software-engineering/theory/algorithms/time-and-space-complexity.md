@@ -1,5 +1,7 @@
 # Time and space complexity
 
+[Back to the topic index](./README.md)
+
 **Time complexity** and **space complexity** are fundamental concepts in algorithm analysis that measure an algorithm’s efficiency in terms of time and memory usage, respectively.
 
 ## Time Complexity

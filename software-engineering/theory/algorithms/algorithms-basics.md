@@ -1,5 +1,7 @@
 # algorithms basics
 
+[Back to the topic index](./README.md)
+
 An **algorithm** is a precise, step-by-step procedure or set of rules used to solve a problem or perform a computation[^2][^3][^4]. In computer science, algorithms are fundamental for tasks such as searching, sorting, and data processing, and they can be implemented using programming languages, pseudocode, or flowcharts[^2] [^1].
 
 ## Introductory Concepts

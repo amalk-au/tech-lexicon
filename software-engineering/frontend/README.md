@@ -1,7 +1,5 @@
 # Front End
 
-## Index
-
 - [JavaScript](./javascript/)
   - [React](./javascript/react/)
   - [Setting up JavaScript for a static site](./javascript/setup-js-static-site.md)
@@ -16,7 +14,7 @@
 - [Front End Assets](./assets/)
   - [Fonts](./assets/)
   - [Icons](./assets/icons/)
-  - [Images](./assets/images/)
+  - [Images](./assets/images/README.md)
 
 ## General
 

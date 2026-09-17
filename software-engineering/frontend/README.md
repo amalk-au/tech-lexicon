@@ -1,8 +1,7 @@
 # Front End
 
-- [JavaScript](./javascript/)
+- [JavaScript](./javascript/README.md)
   - [React](./javascript/react/)
-  - [Setting up JavaScript for a static site](./javascript/setup-js-static-site.md)
 - [CSS](./css/)
   - [CSS Flexbox](./css/css-flexbox.md)
   - [CSS Modules](./css/css-modules.md)
@@ -15,10 +14,6 @@
   - [Fonts](./assets/)
   - [Icons](./assets/icons/)
   - [Images](./assets/images/README.md)
-
-## General
-
-- `npm init -y` : Initialize an empty package.json
 
 ## Links
 

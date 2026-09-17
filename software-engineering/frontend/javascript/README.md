@@ -4,6 +4,7 @@
 - [JavaScript Q&A](./javascript-q&a.md)
 - [JavaScript Refresher](./javascript-refresher.md)
 - [JavaScript Service Workers](./js-service-workers.md)
+- [JavaScript Setup for Static HTML Sites](./javascript-setup-for-static-site.md)
 - [React](./react/README.md)
   - [React Cheat Sheet](./react/react-cheat-sheet.md)
 

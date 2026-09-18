@@ -5,6 +5,7 @@
 ## [Go to quick Tech Interview Prep cheat sheet](./quick-interview-prep.md)
 
 - [Software Engineering Basics](./software-engineering-basics.md)
+- [A practical guide to the **Software Engineering Body of Knowledge (SWEBOK)](./swebok.md)
 - [Clean Code](clean-code.md)
 - [Domain Driven Design](./domain-driven-design.md)
 - [Test Driven Development](./test-driven-development.md)

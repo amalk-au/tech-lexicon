@@ -10,6 +10,12 @@
 
 ## External Links
 
+- [MDN Web Docs, JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript?utm_source=chatgpt.com)
+- [javascript.info reference](https://javascript.info/)
+- [ECMAScript specification ](https://tc39.es/)
+- [TypeScript Documentation](https://www.typescriptlang.org/docs/)
+- [Node.js documentation](https://nodejs.org/docs/latest/api/)
+- [Master JavaScript with 33 core concepts](https://33jsconcepts.com/)
 - [Prevent default](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
 
 [Back to Main Index](../../../topics-index.md)

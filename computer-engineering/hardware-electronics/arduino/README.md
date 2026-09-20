@@ -1,9 +1,7 @@
 # Arduino Reference
 
-## Index
-
 - [Arduino basics](./arduino-basics.md)
-- [Arduino Uno](./duinotech-uno/)
+- [Jaycar XC-4410 Duinotech Uno Classic](./duinotech-uno-r3/README.md)
 - [Arduino Uno Starter kit](./duinotech-uno-starter-kit/)
 - [duinotech-arduino-compatible-2-x-16-lcd-xc4454](./duinotech-arduino-compatible-2-x-16-lcd-xc4454/)
 - [duinotech-arduino-compatible-8digit-7-segment-display-xc-3714](./duinotech-arduino-compatible-8digit-7-segment-display-xc-3714/)
@@ -13,7 +11,6 @@
 ## External Links
 
 - [Arduino programming language reference](https://docs.arduino.cc/language-reference/)
-
 - [UNO R3 Hardware](https://docs.arduino.cc/hardware/uno-rev3/)
 
 [Back to Main Index](../../../topics-index.md)

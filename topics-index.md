@@ -25,7 +25,7 @@
   - [CSS](./software-engineering/frontend/css/README.md)
   - [HTML](./software-engineering/frontend/html/README.md)
   - [JavaScript](./software-engineering/frontend/javascript/README.md)
-     - [React](./software-engineering/frontend/javascript/react/README.md) 
+    - [React](./software-engineering/frontend/javascript/react/README.md)
   - [Markdown](./software-engineering/frontend/markdown/README.md)
   - [Front End assets](./software-engineering/frontend/assets/)
 - [Full Stack](./software-engineering/fullstack/README.md)

@@ -1,5 +1,9 @@
 # Raspberry Pi 4 Model B — 8 GB
 
+[Back to the topic index](../README.md)
+
+[Raspberry Pi 4 resources](./)
+
 Documentation, setup instructions, Linux notes, Docker configuration, and project references for the **Raspberry Pi 4 Model B with 8 GB LPDDR4 RAM**.
 
 The Raspberry Pi is a compact single-board computer designed for education, experimentation, software development, electronics, networking, automation, robotics, servers, and embedded projects.

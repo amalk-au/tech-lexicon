@@ -1,6 +1,6 @@
 # Raspberry Pi Pico
 
-[Back to the topic index](./README.md)
+[Back to the topic index](../README.md)
 
 [Pico Resources](./)
 

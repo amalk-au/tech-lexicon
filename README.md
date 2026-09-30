@@ -28,6 +28,7 @@ The **Tech Lexicon** is an open source, curated knowledge repository designed to
   - [HTML](./software-engineering/frontend/html/README.md)
   - [JavaScript](./software-engineering/frontend/javascript/README.md)
     - [React](./software-engineering/frontend/javascript/react/README.md)
+      - [Next.js](./software-engineering/frontend/javascript/react/nextjs/README.md)
   - [Markdown](./software-engineering/frontend/markdown/README.md)
   - [Front End assets](./software-engineering/frontend/assets/)
 - [Full Stack](./software-engineering/fullstack/README.md)

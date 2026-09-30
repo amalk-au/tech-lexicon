@@ -1,8 +1,7 @@
 # Backend
 
-## Index
-
 - [Node.js Basics](./nodejs-basics.md)
+- [Node.js revision](./nodejs-revision.md)
 - [Node.js Event loop](./event-loop.md)
 - [Express.js Basics](./expressjs-basics.md)
 

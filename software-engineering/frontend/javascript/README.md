@@ -2,7 +2,8 @@
 
 - [Javascript Cheat Sheet](./javascript-cheat-sheet.md)
 - [JavaScript Q&A](./javascript-q&a.md)
-- [JavaScript Refresher](./javascript-refresher.md)
+- [JavaScript revision concise](./javascript-revision-concise.md)
+- [JavaScript revision extended](./javascript-revision-extended.md)
 - [JavaScript Service Workers](./js-service-workers.md)
 - [JavaScript Setup for Static HTML Sites](./javascript-setup-for-static-site.md)
 - [React](./react/README.md)

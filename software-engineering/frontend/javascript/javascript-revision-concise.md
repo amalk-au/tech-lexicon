@@ -1,4 +1,4 @@
-# JavaScript Refresher
+# JavaScript revision concise
 
 [Back to JavaScript topic Index](./README.md)
 

@@ -1,5 +1,7 @@
 # Render.com
 
+[Back to the topic index](../README.md)
+
 ## Render.com for Node.js deployment
 
 - Click add new `Web Service`
@@ -20,4 +22,4 @@
 JWT_SECRET_KEY=`""` (Enter if you are using JWT authentication) 
 CORS_URL="" `https://www.amalk.au`(Enter the main url of the Front End)
 
-[Back to Main Index](/topics-index.md)
+[Back to Main Index](../../../../README.md)

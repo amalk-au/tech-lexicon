@@ -1,5 +1,7 @@
 # Neon.tech
 
+[Back to the topic index](../README.md)
+
 ## Neon.tech for PostgreSQL database deployment
 
 - Click "New Project"
@@ -15,4 +17,4 @@
 - In you local project open terminal in the Prisma installation folder and migrate schema to Neon `npx prisma migrate dev --name init`. This will setup the newly created database schema in neon database.
 - If you have a sample data seed you can run it now : `node src/prisma/SeedSampleData.js` Make sure when you run this that you are running from the root file where package.json and .env is located otherwise you will get errors.
 
-[Back to Main Index](/topics-index.md)
+[Back to Main Index](../../../../README.md)

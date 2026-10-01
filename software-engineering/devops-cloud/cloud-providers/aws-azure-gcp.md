@@ -1,5 +1,7 @@
 # AWS, Azure, GCP service names
 
+[Back to the topic index](./README.md)
+
 Here’s a table comparing **product names for core services** across AWS, Azure, and Google Cloud Platform (GCP). This will help you quickly map equivalent offerings between providers
 
 

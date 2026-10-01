@@ -1,5 +1,7 @@
 # Github Pages
 
+[Back to the topic index](../README.md)
+
 ## Deploy React App to Github Pages
 
 - Install Github pages: `npm install --save-dev gh-pages`
@@ -21,4 +23,4 @@ Only do this if you're not using the gh-pages npm package.If you want to push ma
 `git subtree push --prefix dist origin gh-pages`
 
 
-[Back to Main Index](/topics-index.md)
+[Back to Main Index](../../../../README.md)

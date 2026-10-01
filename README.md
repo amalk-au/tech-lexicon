@@ -22,6 +22,9 @@ The **Tech Lexicon** is an open source, curated knowledge repository designed to
 
 - [Back End](./software-engineering/backend/README.md)
   - [Database](./software-engineering/backend/database/README.md)
+    - [SQL](./software-engineering/backend/database/sql/README.md)
+    - [PostgreSQL](./software-engineering/backend/database/postgresql/README.md)
+    - [Prisma ORM](./software-engineering/backend/database/prisma-orm/README.md)
   - [Node.Js](./software-engineering/backend/nodejs/README.md)
 - [Front End](./software-engineering/frontend/README.md)
   - [CSS](./software-engineering/frontend/css/README.md)

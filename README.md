@@ -37,6 +37,7 @@ The **Tech Lexicon** is an open source, curated knowledge repository designed to
 - [Full Stack](./software-engineering/fullstack/README.md)
   - [TypeScript](./software-engineering/fullstack/typescript/README.md)
   - [Python](./software-engineering/backend/python/README.md)
+  - [WordPress](./software-engineering/fullstack/word-press/README.md)
 - [Software Engineering Theory & Tech Interview Prep](./software-engineering/theory/README.md)
   - [Algorithms](./software-engineering/theory/algorithms/README.md)
   - [Data Structures](./software-engineering/theory/data-structures/README.md)

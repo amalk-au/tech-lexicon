@@ -45,6 +45,7 @@ The **Tech Lexicon** is an open source, curated knowledge repository designed to
   - [CI/CD Pipelines](./software-engineering/devops-cloud/cicd-pipelines/README.md)
   - [Cloud Providers](./software-engineering/devops-cloud/cloud-providers/README.md)
   - [Containerization](./software-engineering/devops-cloud/containerization/README.md)
+    - [Docker](./software-engineering/devops-cloud/containerization/docker/README.md)
   - [Infrastructure as code](./software-engineering/devops-cloud/infrastructure-as-code/README.md)
   - [Monitoring & Logging](./software-engineering/devops-cloud/monitoring-logging/README.md)
   - [Orchestration](./software-engineering/devops-cloud/orchestration/README.md)

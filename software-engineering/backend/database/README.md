@@ -1,7 +1,8 @@
 # Databases General
 
-- [SQL Basic](./sql-basics.md)
+- [SQL Basics](./sql-basics.md)
 - [SQL Commands](sql-commands.md)
+- [postgres-sql-revision](./postgres-sql-revision.md)
 - [SQL Joins](./sql-joins.md)
 - [Primary and foreign keys](./primary-and-foreign-keys.md)
 - [PostgreSQL](postgresql.md)

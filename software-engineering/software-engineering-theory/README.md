@@ -1,4 +1,4 @@
-# Software Engineering Theory & Tech Interview Prep
+# Software Engineering Theory
 
 ## [Go to Algorithms section](./algorithms/README.md)
 ## [Go to Data Structures section](./data-structures/README.md)

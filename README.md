@@ -58,9 +58,10 @@ The **Tech Lexicon** is an open source, curated knowledge repository designed to
   - [Scripts](./software-engineering/devops-cloud/scripts/README.md)
   - [Security & Compliance](./software-engineering/devops-cloud/security-compliance/README.md)
   - [SEO](./software-engineering/devops-cloud/seo/README.md)
-- [Software Engineering Theory & Tech Interview Prep](./software-engineering/theory/README.md)
-  - [Algorithms](./software-engineering/theory/algorithms/README.md)
-  - [Data Structures](./software-engineering/theory/data-structures/README.md)
+- [Tech Interview Prep](./software-engineering/tech-interview-preparation/README.md)
+- [Software Engineering Theory](./software-engineering/software-engineering-theory/README.md)
+  - [Algorithms](./software-engineering/software-engineering-theory/algorithms/README.md)
+  - [Data Structures](./software-engineering/software-engineering-theory/data-structures/README.md)
 
 ## Introduction
 

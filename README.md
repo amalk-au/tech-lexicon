@@ -38,9 +38,7 @@ The **Tech Lexicon** is an open source, curated knowledge repository designed to
   - [TypeScript](./software-engineering/fullstack/typescript/README.md)
   - [Python](./software-engineering/backend/python/README.md)
   - [WordPress](./software-engineering/fullstack/word-press/README.md)
-- [Software Engineering Theory & Tech Interview Prep](./software-engineering/theory/README.md)
-  - [Algorithms](./software-engineering/theory/algorithms/README.md)
-  - [Data Structures](./software-engineering/theory/data-structures/README.md)
+  - [Software Testing](./software-engineering/fullstack/software-testing/README.md)
 - [Software Engineering Tools](./software-engineering/tools/README.md)
   - [Git](./software-engineering/tools/git/README.md)
   - [Postman](./software-engineering/tools/postman.md)
@@ -60,6 +58,9 @@ The **Tech Lexicon** is an open source, curated knowledge repository designed to
   - [Scripts](./software-engineering/devops-cloud/scripts/README.md)
   - [Security & Compliance](./software-engineering/devops-cloud/security-compliance/README.md)
   - [SEO](./software-engineering/devops-cloud/seo/README.md)
+- [Software Engineering Theory & Tech Interview Prep](./software-engineering/theory/README.md)
+  - [Algorithms](./software-engineering/theory/algorithms/README.md)
+  - [Data Structures](./software-engineering/theory/data-structures/README.md)
 
 ## Introduction
 

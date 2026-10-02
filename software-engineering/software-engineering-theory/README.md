@@ -2,7 +2,6 @@
 
 ## [Go to Algorithms section](./algorithms/README.md)
 ## [Go to Data Structures section](./data-structures/README.md)
-## [Go to quick Tech Interview Prep cheat sheet](./quick-interview-prep.md)
 
 - [Software Engineering Basics](./software-engineering-basics.md)
 - [A practical guide to the **Software Engineering Body of Knowledge (SWEBOK)](./swebok.md)

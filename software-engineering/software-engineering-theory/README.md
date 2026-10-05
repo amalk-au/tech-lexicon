@@ -14,4 +14,4 @@
 
 - [CodePath Computer Science guides on data structures, algorithms and technical interviewing](https://guides.codepath.com/compsci)
 
-[Back to Main Index](../../topics-index.md)
+[Back to Main Index](../../README.md)

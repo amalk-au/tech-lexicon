@@ -17,7 +17,7 @@ Use this page as a route through reusable engineering notes and practical interv
 | Coding patterns and complexity     | [Algorithms revision](../software-engineering-theory/algorithms/algorithms-revision.md)                | Explain why the pattern works and implement it from memory |
 | Hands-on coding                    | [Runnable DSA practice](../practice/dsa/README.md)                                                     | Edit starters and check them against edge cases            |
 | Architecture and failure handling  | [System-design exercises](../software-engineering-theory/system-design/system-design-exercises.md)     | Design an API/schema, estimate load, and test a failure    |
-| Runnable design demonstrations     | [System-design labs](../practice/system-design/README.md)                                              | Observe stale caches, retries, and worker recovery         |
+| Runnable design demonstrations     | [System-design labs](./practice/README.md)                                              | Observe stale caches, retries, and worker recovery         |
 
 **Why two DSA documents?** Data structures answer “how should I store and access this data?” Algorithms answer “what steps solve this problem?” Each begins with a compact lookup table and links to the other. Keeping them separate makes targeted revision faster while preserving complete, runnable examples for learning.
 
@@ -96,3 +96,21 @@ Yes—use selected problems to test transfer after learning the local pattern. T
 Choose one route, such as [LeetCode 75](https://leetcode.com/studyplan/leetcode-75/) or [NeetCode practice](https://neetcode.io/practice). Start with a problem matching a pattern you have learned. Attempt it before reading an explanation, review one missed invariant, then re-solve it later. Avoid using a solved-problem count as the only measure of progress.
 
 Readiness means you can derive an approach, code it, test it, explain the cost, and adapt when the constraints change. Keep practical web/API work and system design in the revision loop when the target interview includes them.
+
+## Primary references for common pitfalls
+
+- [MDN: types and data structures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Data_structures)
+- [MDN: hoisting](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)
+- [MDN: undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
+- [MDN: bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
+- [MDN: prototypes and inheritance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Inheritance_and_the_prototype_chain)
+- [MDN: promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
+- [MDN: Object.freeze](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze)
+- [MDN: fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+- [MDN: getElementsByTagName](https://developer.mozilla.org/en-US/docs/Web/API/Element/getElementsByTagName)
+- [PostgreSQL: transaction isolation](https://www.postgresql.org/docs/current/transaction-iso.html)
+
+## Additional reading
+
+- [freeCodeCamp: OOP concepts](https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260/)
+- [DigitalOcean: SOLID principles](https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design)

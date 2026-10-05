@@ -1,6 +1,6 @@
 # Practical system-design labs
 
-[Design exercises and review criteria](../../software-engineering-theory/system-design/system-design-exercises.md) · [Interview hub](../../tech-interview-preparation/README.md)
+[Back to the topic index](../../README.md)
 
 Run three deterministic JavaScript models, observe a failure, then change a constraint and explain the effect on the architecture. These are single-process, in-memory teaching models: they demonstrate cache expiry, retry semantics, and lease ownership. They do not simulate network concurrency or provide durable distributed transactions.
 
@@ -23,12 +23,12 @@ idempotency: {"remainingAfterRetry":3,"sameResponse":true,"keyConflict":true,"na
 jobs: {"attempts":2,"effects":1,"staleAck":false,"finished":true}
 ```
 
-| Command | Observe |
-| --- | --- |
-| `pnpm run lab cache` | A cached value stays stale without invalidation until its TTL expires |
-| `pnpm run lab idempotency` | A retry replays a response without reserving inventory again |
-| `pnpm run lab jobs` | A worker crash causes another attempt; the stable effect key suppresses a duplicate |
-| `pnpm test` | Verify TTL boundaries, key conflicts, ownership, mutation isolation, and scenarios |
+| Command                    | Observe                                                                             |
+| -------------------------- | ----------------------------------------------------------------------------------- |
+| `pnpm run lab cache`       | A cached value stays stale without invalidation until its TTL expires               |
+| `pnpm run lab idempotency` | A retry replays a response without reserving inventory again                        |
+| `pnpm run lab jobs`        | A worker crash causes another attempt; the stable effect key suppresses a duplicate |
+| `pnpm test`                | Verify TTL boundaries, key conflicts, ownership, mutation isolation, and scenarios  |
 
 Each lab asserts its expected behaviour. The examples use synthetic IDs and data; no credentials are required. Time is advanced by changing a number, so there are no real-time sleeps or flaky timing checks.
 
@@ -39,12 +39,12 @@ Each lab asserts its expected behaviour. The examples use synthetic IDs and data
 3. Make one deliberate change below, predict what fails, and run the test.
 4. Restore the correct behaviour, add one new case, and explain the production mechanism needed.
 
-| Lab | Deliberate change | Why it matters |
-| --- | --- | --- |
-| Cache | Use `invalidateOnWrite: false`; vary TTL | A faster read can serve older data; TTL only bounds this model's staleness |
-| Idempotency | Replace a retry's key with a new key | The server cannot distinguish a retry from a new intent without stable identity |
-| Jobs | Use `${job.id}:${job.attempts}` as the sink key | Attempt IDs do not deduplicate the same logical effect across retries |
-| Jobs | Remove the token/expiry checks from `ack()` | An old worker may complete a lease now owned by another worker |
+| Lab         | Deliberate change                               | Why it matters                                                                  |
+| ----------- | ----------------------------------------------- | ------------------------------------------------------------------------------- |
+| Cache       | Use `invalidateOnWrite: false`; vary TTL        | A faster read can serve older data; TTL only bounds this model's staleness      |
+| Idempotency | Replace a retry's key with a new key            | The server cannot distinguish a retry from a new intent without stable identity |
+| Jobs        | Use `${job.id}:${job.attempts}` as the sink key | Attempt IDs do not deduplicate the same logical effect across retries           |
+| Jobs        | Remove the token/expiry checks from `ack()`     | An old worker may complete a lease now owned by another worker                  |
 
 In the models, updates execute synchronously. With `await`, multiple processes, persistent storage, or an external effect, the atomicity boundaries change. The design notes explain the transaction, invalidation-race, and provider-idempotency questions to resolve next. The job model omits backoff, dead-letter queues, lease renewal, and bounded storage; adding these is part of the exercise.
 

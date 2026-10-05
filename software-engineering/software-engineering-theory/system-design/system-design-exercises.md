@@ -2,7 +2,7 @@
 
 [Back to the topic index](./README.md)
 
-[Runnable labs](../../practice/system-design/README.md)
+[Runnable labs](../../tech-interview-preparation/practice/system-design/README.md)
 
 Design a small correct system first, then introduce load and failures. These exercises use a generic catalogue/reservation/export service and fictional workloads. Use Node.js/TypeScript and PostgreSQL in your design if helpful; explain what each component is needed for before adding it.
 

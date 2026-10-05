@@ -1,6 +1,6 @@
 # Runnable DSA practice
 
-[Data structures notes](../../software-engineering-theory/data-structures/data-structures-revision.md) · [Algorithms notes](../../software-engineering-theory/algorithms/algorithms-revision.md) · [Interview hub](../../tech-interview-preparation/README.md)
+[Back to the topic index](../../README.md)
 
 Small JavaScript ES modules with complete implementations, checked examples, and editable exercises. Use JavaScript first to practise the algorithms; add TypeScript types later without changing the algorithm. There are no third-party dependencies, credentials, or external services.
 

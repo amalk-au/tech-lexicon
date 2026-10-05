@@ -1,6 +1,6 @@
 # Data structures: JavaScript revision
 
-[Back to the topic index](./README.md)
+[Back to the topic index](../README.md)
 
 Use this page to choose a structure, explain its invariant, and implement its operations. Keep [algorithms](../algorithms/algorithms-revision.md) beside it for the patterns that use these structures. Two focused pages make the lookup tables quick to scan while keeping complete examples available below.
 

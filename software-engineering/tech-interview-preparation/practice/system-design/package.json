@@ -1,0 +1,10 @@
+{
+  "name": "system-design-practice",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "lab": "node scripts/lab.js",
+    "test": "node --test tests/*.test.js"
+  }
+}

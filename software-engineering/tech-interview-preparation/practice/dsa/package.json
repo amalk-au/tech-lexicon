@@ -1,0 +1,15 @@
+{
+  "name": "dsa-practice",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "demo": "node scripts/demo.js",
+    "test": "node --test tests/*.test.js",
+    "exercise": "node scripts/exercise.js",
+    "exercise:solution": "node scripts/exercise.js --solution",
+    "notes:check": "node scripts/notes.js --check",
+    "notes:sync": "node scripts/notes.js",
+    "check": "pnpm run notes:check && pnpm test"
+  }
+}

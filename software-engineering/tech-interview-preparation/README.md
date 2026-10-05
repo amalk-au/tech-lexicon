@@ -4,7 +4,7 @@
 
 - [Quick Interview Revision](./quick-interview-prep.md)
 - [Practical system-design exercises](../software-engineering-theory/system-design/system-design-exercises.md): requirements, estimates, APIs, data models, failure cases, and review criteria.
-- [Runnable labs](../tech-interview-preparation/): cache expiry, idempotent retries, worker leases, and optional PostgreSQL contention exercises.
+- [Runnable labs](../tech-interview-preparation/practice/README.md): cache expiry, idempotent retries, worker leases, and optional PostgreSQL contention exercises.
 
 Use this page as a route through reusable engineering notes and practical interview exercises. The subject guides live with the theory so they remain useful outside interview preparation; this folder holds the revision route and short interview sheet.
 

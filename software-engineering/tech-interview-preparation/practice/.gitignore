@@ -1,0 +1,5 @@
+node_modules/
+.pnpm-store/
+
+# Keep authored SQL exercises despite the repository's general SQL exclusion.
+!system-design/sql/*.sql

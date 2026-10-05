@@ -44,10 +44,17 @@
 Understanding both complexities is essential for designing efficient algorithms and writing performant software, especially in contexts like web development with JavaScript and Node.js, where responsiveness and resource usage matter[^1] [^2] [^3].
 
 [^1]: https://www.shiksha.com/online-courses/articles/difference-between-time-complexity-and-space-complexity-blogId-151433
+
 [^2]: https://www.simplilearn.com/tutorials/data-structure-tutorial/time-and-space-complexity
+
 [^3]: https://www.geeksforgeeks.org/dsa/time-complexity-and-space-complexity/
+
 [^4]: https://www.hackerearth.com/practice/basic-programming/complexity-analysis/time-and-space-complexity/tutorial/
+
 [^5]: https://dev.to/emmanuelayinde/mastering-time-and-space-complexity-a-beginners-guide-to-big-o-notation-33ae
+
 [^6]: https://en.wikipedia.org/wiki/Time_complexity
+
 [^7]: https://launchschool.com/books/dsa/read/space_complexity
+
 [^8]: https://dev.to/veldakiara/big-o-notation-time-and-space-complexity-14kk

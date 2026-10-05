@@ -62,6 +62,7 @@ The **Tech Lexicon** is an open source, curated knowledge repository designed to
 - [Software Engineering Theory](./software-engineering/software-engineering-theory/README.md)
   - [Algorithms](./software-engineering/software-engineering-theory/algorithms/README.md)
   - [Data Structures](./software-engineering/software-engineering-theory/data-structures/README.md)
+  - [System Design](./software-engineering/software-engineering-theory/system-design/README.md)
 
 ## Introduction
 

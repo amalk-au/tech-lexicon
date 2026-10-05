@@ -2,11 +2,9 @@
 
 [Back to the topic index](./README.md)
 
-Use the lookup tables for a final qucik refresh. Cover the answer column and explain each concept aloud; use the examples below for hands-on revision and the linked guides for deeper study.
+Use the lookup tables for a final quick refresh. Cover the answer column and explain each concept aloud; use the examples below for hands-on revision and the linked guides for deeper study.
 
 Jump to: [JavaScript](#javascript-essentials) · [Async](#asynchronous-javascript) · [Browser](#browser-and-dom) · [OOP](#oop-and-design-principles) · [DSA](#dsa-recall) · [Backend/design](#practical-backend-and-system-design) · [Examples](#copy-and-run-examples).
-
-The relative links assume this document is saved as `software-engineering/tech-interview-preparation/quick-interview-prep.md` in the repository.
 
 ## JavaScript essentials
 

@@ -153,7 +153,7 @@ The table uses the standard dense-array/hash-table model. Hash access is expecte
 | Quicksort      | Partitions around a pivot, then sorts the partitions.                                       | Expected O(n log n) with suitable randomised pivots; O(n²) worst case |
 | Merge sort     | Recursively sorts halves, then merges them; left-first ties preserve stability.             | O(n log n); O(n) peak auxiliary space for the linked implementation   |
 
-Complete code: [data structures](../software-engineering-theory/data-structures/data-structures-revision.md), [algorithms](../software-engineering-theory/algorithms/algorithms-revision.md), and [editable exercises](../practice/dsa/exercises/README.md).
+Complete code: [data structures](../software-engineering-theory/data-structures/data-structures-revision.md), [algorithms](../software-engineering-theory/algorithms/algorithms-revision.md), and [editable exercises](./practice/dsa/exercises/README.md).
 
 ## Practical backend and system design
 
@@ -167,7 +167,7 @@ Complete code: [data structures](../software-engineering-theory/data-structures/
 | Jobs              | Expect repeated attempts; use durable state, leases, ownership tokens, bounded retries, and stable effect identities. A queue alone does not guarantee exactly-once effects. |
 | Reliability       | Consider deadlines, backoff/jitter, overload limits, logs/metrics/traces, and recovery. Measure tail latency and backlog, not just averages.                                 |
 
-Practise the [three design exercises](../software-engineering-theory/system-design/system-design-exercises.md) and [runnable failure labs](../practice/system-design/README.md).
+Practise the [three design exercises](../software-engineering-theory/system-design/system-design-exercises.md) and [runnable failure labs](./practice/system-design/README.md).
 
 ## Coding interview routine
 

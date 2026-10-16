@@ -1,18 +1,16 @@
 # Linux Reference
 
-[Back to Main Index](../../../topics-index.md)
+[Back to Main Index](../../../README.md)
+[Back to the topic index](../README.md)
 
-- [Ubuntu Keyboard Shortcuts](./ubuntu-keyboard-shortcuts.md)
+- [Ubuntu Main Topic Index](./ubuntu/README.md)
 - [Terminal Commands - Full](./terminal-commands-full.md)
-- [Ubuntu Administration Cheat Sheet](./ubuntu-admin-commands.md)
 - [File system types](./file-system-types.md)
 - [How Linux Kernel Works](./how-linux-work.md)
 - [What is a cron job ?](./ubuntu-cron-jobs.md)
 - [systemd information](./ubuntu-systemd.md)
 - [KVM+Virt-Manager setup](../virtual-machines/kvm-virt-manager-setup.md)
 - [Raspberry Pi Commands](../../hardware-electronics/raspberry-pi/raspberry-pi-firmware.md)
-- [Ubuntu New Install Configuration](./ubuntu-new-install.md)
-  - [Dot Files](./dot-files/README.md)
 - [Linux Programs](./linux-programs/README.md)
 
 ## External Links

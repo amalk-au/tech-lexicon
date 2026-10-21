@@ -1,18 +1,20 @@
 # Computer Engineering
 
-## Index
+[Back to Main Index](../README.md)
 
-- [AI & ML](./ai-ml/)
-- [Hardware & Electronics](./hardware-electronics/)
-  - [Arduino](./hardware-electronics/arduino/)
-  - [Computer-Hardware](./hardware-electronics/computer-hardware/)
-  - [Electronics](./hardware-electronics/electronics/)
-  - [Raspberry Pi](./hardware-electronics/raspberrypi/)
+- [AI & ML](./ai-ml/README.md)
+- [Hardware & Electronics](./hardware-electronics/README.md)
+  - [Arduino](./hardware-electronics/arduino/README.md)
+  - [Computer-Hardware](./hardware-electronics/computer-hardware/README.md)
+  - [Electronics](./hardware-electronics/electronics/README.md)
+  - [Raspberry Pi](./hardware-electronics/raspberry-pi/README.md)
 - [Networking & Cybersecurity](./networking-cybersecurity/)
-  - [Cybersecurity](./networking-cybersecurity/cybersecurity/)
+  - [Cybersecurity](./networking-cybersecurity/cybersecurity/README.md)
   - [Networking](./networking-cybersecurity/networking/)
 - [Operating Systems](./operating-systems/)
-  - [Linux](./operating-systems/linux/)
-  - [Microsoft Windows](./operating-systems/microsoft-windows/)
-
-[Back to Main Index](../topics-index.md)
+  - [Linux](./operating-systems/linux/README.md)
+    - [Ubuntu](./operating-systems/linux/ubuntu/README.md)
+    - [Dot Files](./operating-systems/linux/dot-files/README.md)
+    - [Linux Programs](./operating-systems/linux/linux-programs/README.md)
+  - [Microsoft Windows](./operating-systems/microsoft-windows/README.md)
+  - [Virtual Machines](./operating-systems/virtual-machines/README.md)

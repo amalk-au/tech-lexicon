@@ -13,6 +13,7 @@
 - `kill [pid]` / `kill -9 [pid]` : Terminate a process (`-9` forces termination)
 - `upower -i /org/freedesktop/UPower/devices/battery_BAT0` : Check the Laptop battery status
 - View current Lenovo Legion Battery conservation mode status : `cat /sys/bus/platform/drivers/ideapad_acpi/VPC2004:00/conservation_mode`
+- Nautilus
 
 ```bash
 1	Conservation Mode ON	Battery charging limited (~55–60%)
@@ -182,7 +183,7 @@ https://eclypsium.com/blog/linux-commands-to-check-the-state-of-firmware/
 
 - `lsblk -l` : Mounted drives
 - `sudo udisksctl power-off -b /dev/sda` : Turn off external HDD power
-- `nautilus admin:/`: Run Nautilus File Manager with root privileges (use `sudo -i` and `CTRL+D` to return to normal user)
+- `nautilus admin:///`: Open Root folder with Nautilus File Manager with root privileges (use `sudo -i` and `CTRL+D` to return to normal user). If you want to open an specific folder give the folder location i.e : `nautilus admin:////var/lib/libvirt/images`
 - `pwd` : Print working directory command in Linux
 - `cd` : Linux command to navigate through directories
 - `mkdir` : Command used to create directories in Linux

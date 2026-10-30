@@ -21,6 +21,43 @@ Verify the installation:
 code --version
 ```
 
+## Configuration
+
+### Disable AI Features and Microsoft Telemetry in VS Code
+
+This configuration disables VS Code's AI features (where supported by your installed version), turns off telemetry reporting, and prevents Microsoft from enabling experimental features.
+
+**Step 1: Open** **`settings.json`**
+
+1.  Press `Ctrl + Shift + P` to open the Command Palette.
+2.  Type and select **Preferences: Open User Settings (JSON)**.
+
+**Step 2: Add the following settings**
+
+Add these entries to your `settings.json` file, making sure to preserve any existing settings and JSON syntax:
+
+json
+
+```
+{
+    "chat.disableAIFeatures": true,
+    "telemetry.telemetryLevel": "off",
+    "workbench.enableExperiments": false
+}
+```
+
+**Step 3: Save your changes**
+
+Press `Ctrl + S` to save the file.
+
+**What these settings do:**
+
+- `"chat.disableAIFeatures": true` — Disables supported built-in AI features in VS Code, rather than simply hiding the Chat panel.
+- `"telemetry.telemetryLevel": "off"` — Disables VS Code telemetry reporting.
+- `"workbench.enableExperiments": false` — Prevents VS Code from participating in product experiments and experiments-related feature rollouts.
+
+**Note:** These settings apply to VS Code itself. They do not necessarily disable telemetry or AI functionality in third-party extensions, separately installed AI assistants, or other Microsoft products.
+
 ---
 
 ## Extensions
@@ -33,30 +70,30 @@ code --list-extensions
 
 ### Recommended Extensions
 
-| Extension | Purpose | Install |
-| --- | --- | --- |
-| **dbaeumer.vscode-eslint** | JavaScript/TypeScript linting and auto-fixes. | `code --install-extension dbaeumer.vscode-eslint` |
-| **esbenp.prettier-vscode** | Formats JavaScript, TypeScript, HTML, CSS, JSON, and Markdown. | `code --install-extension esbenp.prettier-vscode` |
-| **bradlc.vscode-tailwindcss** | IntelliSense and linting for Tailwind CSS. | `code --install-extension bradlc.vscode-tailwindcss` |
-| **xabikos.JavaScriptSnippets** | JavaScript and React code snippets. | `code --install-extension xabikos.JavaScriptSnippets` |
-| **dsznajder.es7-react-js-snippets** | React, Redux, and ES7 snippets. | `code --install-extension dsznajder.es7-react-js-snippets` |
-| **formulahendry.auto-rename-tag** | Automatically renames matching HTML/JSX tags. | `code --install-extension formulahendry.auto-rename-tag` |
-| **formulahendry.auto-close-tag** | Automatically inserts closing HTML/JSX tags. | `code --install-extension formulahendry.auto-close-tag` |
-| **ms-ossdata.vscode-pgsql** | PostgreSQL explorer and query editor. | `code --install-extension ms-ossdata.vscode-pgsql` |
-| **usernamehw.errorlens** | Displays diagnostics inline. | `code --install-extension usernamehw.errorlens` |
-| **eamodio.gitlens** | Enhanced Git history, blame, and repository insights. | `code --install-extension eamodio.gitlens` |
-| **ms-vscode.vscode-typescript-next** *(optional)* | Latest TypeScript language service. | `code --install-extension ms-vscode.vscode-typescript-next` |
-| **ms-vscode.vscode-json** | Improved JSON editing and validation. | `code --install-extension ms-vscode.vscode-json` |
-| **ritwickdey.liveserver** | Live-reloading web server for static sites. | `code --install-extension ritwickdey.liveserver` |
-| **ms-vscode-remote.remote-ssh** | Develop on remote machines via SSH. | `code --install-extension ms-vscode-remote.remote-ssh` |
-| **ms-vscode-remote.remote-ssh-edit** | Edit remote files over SSH without opening a workspace. | `code --install-extension ms-vscode-remote.remote-ssh-edit` |
-| **ms-vscode.remote-explorer** | Manage Remote SSH, WSL, and Dev Containers. | `code --install-extension ms-vscode.remote-explorer` |
-| **digitarald.paste-as-markdown** | Convert pasted rich text into Markdown. | `code --install-extension digitarald.paste-as-markdown` |
-| **shd101wyy.markdown-preview-enhanced** | Advanced Markdown preview with diagrams and math. | `code --install-extension shd101wyy.markdown-preview-enhanced` |
-| **yzhang.markdown-all-in-one** | Markdown shortcuts, TOC generation, and formatting. | `code --install-extension yzhang.markdown-all-in-one` |
-| **streetsidesoftware.code-spell-checker** | Spell checking for code and documentation. | `code --install-extension streetsidesoftware.code-spell-checker` |
-| **streetsidesoftware.code-spell-checker-australian-english** | Australian English dictionary. | `code --install-extension streetsidesoftware.code-spell-checker-australian-english` |
-| **oleg-shilo.favorites** | Bookmark frequently used files and folders. | `code --install-extension oleg-shilo.favorites` |
+| Extension                                                    | Purpose                                                        | Install                                                                             |
+| ------------------------------------------------------------ | -------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| **dbaeumer.vscode-eslint**                                   | JavaScript/TypeScript linting and auto-fixes.                  | `code --install-extension dbaeumer.vscode-eslint`                                   |
+| **esbenp.prettier-vscode**                                   | Formats JavaScript, TypeScript, HTML, CSS, JSON, and Markdown. | `code --install-extension esbenp.prettier-vscode`                                   |
+| **bradlc.vscode-tailwindcss**                                | IntelliSense and linting for Tailwind CSS.                     | `code --install-extension bradlc.vscode-tailwindcss`                                |
+| **xabikos.JavaScriptSnippets**                               | JavaScript and React code snippets.                            | `code --install-extension xabikos.JavaScriptSnippets`                               |
+| **dsznajder.es7-react-js-snippets**                          | React, Redux, and ES7 snippets.                                | `code --install-extension dsznajder.es7-react-js-snippets`                          |
+| **formulahendry.auto-rename-tag**                            | Automatically renames matching HTML/JSX tags.                  | `code --install-extension formulahendry.auto-rename-tag`                            |
+| **formulahendry.auto-close-tag**                             | Automatically inserts closing HTML/JSX tags.                   | `code --install-extension formulahendry.auto-close-tag`                             |
+| **ms-ossdata.vscode-pgsql**                                  | PostgreSQL explorer and query editor.                          | `code --install-extension ms-ossdata.vscode-pgsql`                                  |
+| **usernamehw.errorlens**                                     | Displays diagnostics inline.                                   | `code --install-extension usernamehw.errorlens`                                     |
+| **eamodio.gitlens**                                          | Enhanced Git history, blame, and repository insights.          | `code --install-extension eamodio.gitlens`                                          |
+| **ms-vscode.vscode-typescript-next** _(optional)_            | Latest TypeScript language service.                            | `code --install-extension ms-vscode.vscode-typescript-next`                         |
+| **ms-vscode.vscode-json**                                    | Improved JSON editing and validation.                          | `code --install-extension ms-vscode.vscode-json`                                    |
+| **ritwickdey.liveserver**                                    | Live-reloading web server for static sites.                    | `code --install-extension ritwickdey.liveserver`                                    |
+| **ms-vscode-remote.remote-ssh**                              | Develop on remote machines via SSH.                            | `code --install-extension ms-vscode-remote.remote-ssh`                              |
+| **ms-vscode-remote.remote-ssh-edit**                         | Edit remote files over SSH without opening a workspace.        | `code --install-extension ms-vscode-remote.remote-ssh-edit`                         |
+| **ms-vscode.remote-explorer**                                | Manage Remote SSH, WSL, and Dev Containers.                    | `code --install-extension ms-vscode.remote-explorer`                                |
+| **digitarald.paste-as-markdown**                             | Convert pasted rich text into Markdown.                        | `code --install-extension digitarald.paste-as-markdown`                             |
+| **shd101wyy.markdown-preview-enhanced**                      | Advanced Markdown preview with diagrams and math.              | `code --install-extension shd101wyy.markdown-preview-enhanced`                      |
+| **yzhang.markdown-all-in-one**                               | Markdown shortcuts, TOC generation, and formatting.            | `code --install-extension yzhang.markdown-all-in-one`                               |
+| **streetsidesoftware.code-spell-checker**                    | Spell checking for code and documentation.                     | `code --install-extension streetsidesoftware.code-spell-checker`                    |
+| **streetsidesoftware.code-spell-checker-australian-english** | Australian English dictionary.                                 | `code --install-extension streetsidesoftware.code-spell-checker-australian-english` |
+| **oleg-shilo.favorites**                                     | Bookmark frequently used files and folders.                    | `code --install-extension oleg-shilo.favorites`                                     |
 
 ---
 
